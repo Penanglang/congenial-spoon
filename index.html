@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>PENANGLANG App</title>
+
+<meta name="description" content="槟城人咖啡店官方会员 App">
+
+<meta property="og:title" content="PENANGLANG App">
+<meta property="og:description" content="槟城人咖啡店官方会员 App">
+<meta property="og:type" content="website">
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    background: #f5efe4;
+    color: #173b2d;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 24px;
+}
+
+.container {
+    width: 100%;
+    max-width: 460px;
+
+    background: white;
+
+    border-radius: 28px;
+
+    padding: 35px 25px 30px;
+
+    text-align: center;
+
+    box-shadow:
+        0 15px 45px rgba(0,0,0,0.12);
+}
+
+.logo {
+    width: 95px;
+    height: 95px;
+
+    margin: 0 auto 20px;
+
+    border-radius: 24px;
+
+    background: #173b2d;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #f4c95d;
+
+    font-size: 14px;
+
+    font-weight: 800;
+
+    letter-spacing: 1px;
+}
+
+h1 {
+    margin: 0;
+
+    font-size: 30px;
+
+    font-weight: 800;
+}
+
+.subtitle {
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+    color: #68746d;
+
+    font-size: 16px;
+}
+
+.button {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 100%;
+
+    padding: 16px;
+
+    margin: 12px 0;
+
+    border-radius: 15px;
+
+    text-decoration: none;
+
+    font-size: 17px;
+
+    font-weight: 700;
+}
+
+.apple {
+
+    background: #111111;
+
+    color: white;
+}
+
+.google {
+
+    background: white;
+
+    color: #173b2d;
+
+    border: 2px solid #173b2d;
+}
+
+.footer {
+
+    margin-top: 22px;
+
+    font-size: 12px;
+
+    color: #8a918d;
+}
+
+</style>
+
+<script>
+
+(function() {
+
+    const userAgent = navigator.userAgent || "";
+
+    if (/iPhone|iPad|iPod/i.test(userAgent)) {
+
+        window.location.replace(
+            "https://apps.apple.com/us/app/penanglang/id6760556951"
+        );
+
+    }
+
+    else if (/Android/i.test(userAgent)) {
+
+        window.location.replace(
+            "https://play.google.com/store/apps/details?id=app.onfast.penanglang"
+        );
+
+    }
+
+})();
+
+</script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="logo">
+        PENANGLANG
+    </div>
+
+    <h1>
+        PENANGLANG App
+    </h1>
+
+    <div class="subtitle">
+        槟城人咖啡店官方会员 App
+    </div>
+
+    <a
+        class="button apple"
+        href="https://apps.apple.com/us/app/penanglang/id6760556951"
+    >
+         &nbsp; Download on App Store
+    </a>
+
+    <a
+        class="button google"
+        href="https://play.google.com/store/apps/details?id=app.onfast.penanglang"
+    >
+        ▶ &nbsp; Get it on Google Play
+    </a>
+
+    <div class="footer">
+        请选择你的手机平台下载 PENANGLANG App
+    </div>
+
+</div>
+
+</body>
+</html>
